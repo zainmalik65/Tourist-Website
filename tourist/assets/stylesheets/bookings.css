@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.back {
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/home3.jpg');
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin-left: 30px;
+}
+
+.left,
+.right {
+  width: 10%;
+}
+
+.middle {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+table {
+  font-size: 18px;
+  font-weight: normal;
+  border-spacing: 0 15px;
+  text-align: center;
+  background-color: white;
+}
+th,
+td {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 10px;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 5px;
+  background-color: white;
+}
+
+input[type='button'],
+input[type='submit'],
+input[type='reset'] {
+  background-color: lightsalmon;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}

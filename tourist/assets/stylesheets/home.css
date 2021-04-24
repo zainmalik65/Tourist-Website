@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Courier New;
+}
+.back {
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/home6.jpg');
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.colorr {
+  color: white;
+}
+.center {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.submit-button {
+}
+.col {
+  color: coral;
+}
+
+input {
+  border: 2px solid #a1a1a1;
+  padding: 10px 40px;
+  background: whitesmoke;
+  width: 300px;
+  border-radius: 25px;
+  color: brown;
+  box-shadow: 0 0 5px transparent;
+}
